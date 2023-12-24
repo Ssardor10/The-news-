@@ -1,0 +1,256 @@
+@import url(./font.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* .container{
+    max-width: 1140px;
+    width: 100%;
+    margin: auto;
+    padding: 0 15px ;
+    
+} */
+.body {
+    max-width: 1420px;
+    width: 100%;
+}
+
+.header__nav {
+    display: flex;
+}
+
+.header__logo {
+    display: flex;
+    padding: 24px 0 4px 145px;
+}
+
+.header__text {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    padding: 0 0 0 155px;
+}
+
+.header__ul {
+    display: flex;
+    column-gap: 15px;
+    padding: 43px 145px 0 278px;
+}
+
+.header__list {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #3A3838;
+    transition: .5s;
+}
+
+.header__list:hover {
+    color: #EF4423;
+}
+
+.heder__img {
+    padding: 43px 145px 0 145px;
+}
+
+.cards {
+    display: flex;
+    padding: 30px 15px 42px 16px;
+}
+
+.card1 {
+    background: #B71C1C;
+    width: 350px;
+}
+
+.card1__text {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding: 15px 17px 10px 17px;
+}
+
+.card1__text2 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #EBEBEB;
+    max-width: 320px;
+    width: 100%;
+    padding: 0 15px 15px 15px;
+}
+
+.card2 {
+    background: #6A1B9A;
+    width: 350px;
+}
+
+.card2__text {
+
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding: 15px 15px 10px 15px;
+}
+
+.card2__text2 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #EBEBEB;
+    padding: 0 15px 15px 15px;
+    max-width: 320px;
+    width: 100%;
+}
+
+.card3 {
+    background: #303F9F;
+    width: 350px;
+}
+
+.card3__text {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding: 15px 15px 10px 15px;
+}
+
+.card3__text2 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #EBEBEB;
+    max-width: 320px;
+    width: 100;
+    padding: 0 15px 15px 15px;
+}
+
+.card4 {
+    background: #00695C;
+    width: 350px;
+}
+
+.card4__text1 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding: 15px 15px 10px 15px;
+}
+
+.card4__text2 {
+
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #EBEBEB;
+    padding: 0 15px 15px 15px;
+    max-width: 320px;
+    width: 100%;
+}
+
+.main__text {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #3A3838;
+    padding: 42px 610px 40px 610px;
+}
+
+.main__main {
+    background: #EDEDED;
+    display: flex;
+}
+
+.main__img {
+    padding: 40px 30px 50px 130px;
+
+
+}
+
+.main__text2 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #3A3838;
+    padding: 20px 145px 30px 0;
+
+}
+
+.main__text1 {
+    max-width: 540px;
+    width: 100%;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #686868;
+}
+
+.footer {
+    background: #3A3838;
+}
+
+.footer__nav {
+    display: flex;
+}
+
+.footer__logo1 {
+    display: flex;
+    padding: 24px 0 4px 145px;
+}
+
+.footer__text {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 0 0 29px 155px;
+}
+
+.footer__ul {
+    display: flex;
+    padding: 53px 145px 54px 287px;
+    column-gap: 15px;
+}
+
+.footer__a {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    transition: .5s;
+}
+.footer__a:hover {
+    color: #EF4423;
+}
